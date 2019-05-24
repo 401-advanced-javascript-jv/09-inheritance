@@ -2,6 +2,9 @@
 
 const uuid = require('uuid/v4');
 
+/**
+ * Mock Mongo model. Provides CRUD functionality to an in-memory database via get([id]), post(record), put(id, record), delete(id)
+ */
 class Model {
 
   constructor(schema) {

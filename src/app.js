@@ -34,7 +34,10 @@ app.use(v1Router);
 app.use(notFound);
 app.use(errorHandler);
 
-
+/**
+ * Start function for the server. Starts the server on the provided port.
+ * @param {Number} port Port where the API server will listen. Optional argument, but if not given, PORT must be set in environment variables.
+ */
 let start = (port = process.env.PORT) => {
   app.listen(port, () => {
     console.log(`Server Up on ${port}`);
