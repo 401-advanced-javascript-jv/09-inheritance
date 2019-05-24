@@ -1,5 +1,11 @@
 'use strict';
 
+/**
+ * Mongoose schema for Teams Model
+ * @module src/models/teams/teams-schema
+ * @requires mongoose
+ * @requires mongoose-schema-jsonschema
+ */
 // const players = require('../players/players-schema.js'); // eslint-disable-line
 const mongoose = require('mongoose');
 require('mongoose-schema-jsonschema')(mongoose);

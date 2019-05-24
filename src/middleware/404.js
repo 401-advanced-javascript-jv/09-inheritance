@@ -1,7 +1,8 @@
 'use strict';
 
 /**
- * Middleware to handle not-found resources, returns a 404 error to front-end
+ * 404 Middleware
+ * @module src/middleware/404
  */
 module.exports = (req,res,next) => {
   let error = { error: 'Resource Not Found' };

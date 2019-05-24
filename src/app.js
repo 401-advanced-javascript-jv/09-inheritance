@@ -3,6 +3,12 @@
 /**
  * API Server Module
  * @module src/app
+ * @requires express
+ * @requires cors
+ * @requires morgan
+ * @requires src/middleware/500.js
+ * @requires src/middleware/404.js
+ * @requires src/api/v1.js
  */
 
 const cwd = process.cwd();

@@ -4,6 +4,8 @@
  * API Router Module (V1)
  * Integrates with various models through a common Interface (.get(), .post(), .put(), .delete())
  * @module src/api/v1
+ * @requires express
+ * @requires src/middleware/model-finder.js
  */
 
 const cwd = process.cwd();

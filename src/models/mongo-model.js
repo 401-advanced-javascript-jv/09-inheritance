@@ -2,6 +2,7 @@
 
 /**
  * MongoDB Model. Provides CRUD functionality via get([_id]), post(record), put(_id, record), and delete(_id)
+ * @module src/models/mongo-model
  */
 class Model {
 
