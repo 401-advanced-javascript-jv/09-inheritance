@@ -10,7 +10,7 @@
 * [API server](https://infinite-springs-40291.herokuapp.com/)
 
 #### Documentation
-*In process*
+* [Server Docs](https://infinite-springs-40291.herokuapp.com/doc)
 
 ### Modules
 #### `teams-model.js`
